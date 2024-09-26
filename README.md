@@ -1,4 +1,7 @@
-<h1 align="left">Bcrypt - CLI Tool by reeth</h1>
+<div align="center"><img src="./media/cuddlyferris.svg" width="250" height="250"</img></div>
+
+<h1 align="center">Bcrypt - CLI Tool by reeth</h1>
+
 <div align="center">
 
 ![https://www.rust-lang.org/](https://img.shields.io/badge/Rust-24273A.svg?style=flat&logo=rust&logoColor=fc8c03) 
