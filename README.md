@@ -1,33 +1,29 @@
-# Bcrpyt-CLI reeth's tool
+<h1 align="center">Bcrypt - CLI Tool by reeth</h1>
+<div align="center">
 
-[![forthebadge](http://forthebadge.com/images/badges/made-with-rust.svg)](http://forthebadge.com)
-[![forthebadge](http://forthebadge.com/images/badges/built-with-love.svg)](http://forthebadge.com)
+![https://www.rust-lang.org/](https://img.shields.io/badge/Rust-24273A.svg?style=flat&logo=rust&logoColor=fc8c03) 
 
+</div>
 
-A Rust script that cyphers a `String` outputing  its cyphered form with `bcrypt` cyphering method. 
-
-# Table of contents
-
-- [Usage](#usage)
-  - [Flags](#flags)
-    - `--S`   (or) `--String`
-    - `--s`   (or) `--salt`
-
-# Usage
-
-[(Back to top)](#table-of-contents)
-
-Man pages have been added. Checkout `bcrpyt-cli man`.
-
-# Contributing
-
-[(Back to top)](#table-of-contents)
-
-Your contributions are always welcome! Please have a look at the [contribution guidelines](CONTRIBUTING.md) first. :tada:
-
-# License
-
-[(Back to top)](#table-of-contents)
+## Table of Contents
+- [About](#-about)
+- [Flags](#-flags)
+- [Installation](#-installation)
 
 
-The MIT License (MIT) 2017 - [Athitya Kumar](https://github.com/athityakumar/). Please have a look at the [LICENSE.md](LICENSE.md) for more details.
+## 📖 About
+
+This is a small script based on Rust, for comparing and encrypting Strings with bcrypt with a custom CLI tool.
+It's designed for optimizing time on development and testing out of code blocks on the app.
+
+## 🚩 Flags
+- encrypt                                            expects a string and a salt number to encrypt the string.
+- compare                                            expects a string and a hash nto verify its integrity.
+
+## 🚀 Installation
+
+1. Clone [this repository](https://github.com/reethfx/bcrypt-cli-tool).
+
+2. Exectue `cargo build --release` this will generate `/target/bcrypt_cli` directory.
+
+3. Simply execute `./target/release/bcrypt_cli` on the specified directory to run the script. You can add it by alias on your shell to make it accesible.`
