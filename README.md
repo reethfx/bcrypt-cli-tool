@@ -17,8 +17,12 @@ This is a small script based on Rust, for comparing and encrypting Strings with 
 It's designed for optimizing time on development and testing out of code blocks on the app.
 
 ## 🚩 Flags
-- encrypt                                            expects a string and a salt number to encrypt the string.
-- compare                                            expects a string and a hash nto verify its integrity.
+
+| Flag                  | Behaviour                                                 |
+|-----------------------|---------------------------------------------------------- |
+| *encrypt*             | expects a string and a salt number to encrypt the string. |
+| *compare*             | expects a string and a hash nto verify its integrity.     |
+
 
 ## 🚀 Installation
 
