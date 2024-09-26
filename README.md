@@ -1,8 +1,9 @@
-<h1 align="left">Bcrypt - CLI Tool by reeth</h1>2
+<h1 align="left">Bcrypt - CLI Tool by reeth</h1>
 <div align="center">
 
 ![https://www.rust-lang.org/](https://img.shields.io/badge/Rust-24273A.svg?style=flat&logo=rust&logoColor=fc8c03) 
 [![GitHub Stars](https://img.shields.io/github/stars/reethfx/bcrypt-cli-tool.svg)](https://github.com/reethfx/node-chat/bcrypt-cli-tool)
+[![Current Version](https://img.shields.io/badge/version-1.0.0-green.svg)](https://github.com/reethfx/bcrypt-cli-tool)
 
 </div>
 
