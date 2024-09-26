@@ -1,0 +1,8 @@
+[package]
+name = "bcrypt_cli"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+bcrypt = "0.11"  # Crate para bcrypt
+clap = { version = "4.0", features = ["derive"] }  # Crate para manejo de CLI
